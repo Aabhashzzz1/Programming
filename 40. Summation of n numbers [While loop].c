@@ -3,7 +3,7 @@
 void main()
 {
     int i,j,sum=0;
-    printf("Enter any two number for submission of n numbers \n");
+    printf("Enter any two number for summation of n numbers \n");
     printf("Enter Starting Number - ");
     scanf("%d",&i);
     printf("Enter Ending Number - ");
@@ -13,6 +13,6 @@ void main()
         sum = sum + i;
         i++;
     }
-    printf("Submission of %d numbers = %d",j,sum);
+    printf("Summation of %d numbers = %d",j,sum);
     getch();
 }
