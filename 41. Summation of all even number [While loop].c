@@ -3,7 +3,7 @@
 void main()
 {
     int i,j,even=0;
-    printf("Submission of all Even numbers \n");
+    printf("Summation of all Even numbers \n");
     printf("Enter Starting Number - ");
     scanf("%d",&i);
     printf("Enter Ending Number - ");
@@ -16,6 +16,6 @@ void main()
         }
         i++;
     }
-    printf("Submisson of all even number -  %d\n",even);
+    printf("Summation of all even number -  %d\n",even);
     getch();
 }
