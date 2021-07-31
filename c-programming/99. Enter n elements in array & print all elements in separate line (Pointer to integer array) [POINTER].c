@@ -9,14 +9,15 @@ void main()
     for(i=1;i<=n;i++)
     {
         printf("Enter element at %d position - ",i);
-        scanf("%d",&*p);
-        *p++;
+        scanf("%d",p);
+        p++;
     }
-    //p=&a[0];
+    p=&a[0];
     printf("You have entered %d number of elements - \n",n);
     for(i=1;i<=n;i++)
     {
         printf("%d\n",*p);
+        *p++;
     }
     getch();
 }
